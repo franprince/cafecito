@@ -81,17 +81,3 @@ npm run start
 ```
 docker-compose up -d --build
 ```
-
-## Para responder preguntas
-
-**Lo unico que hay que hacer es pasarle por query params lo siguiente**
-
-```
-?isAdmin=true&password=nuestra_password
-```
-
-**quedando nuestra url de la siguiente manera**
-
-```
-http://localhost:3000?isAdmin=true&password=nuestra_password
-```
